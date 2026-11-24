@@ -1,0 +1,35 @@
+<section class="blk-pal" id="o-que-dizem">
+  <div class="wrap blk-pal__grade">
+    <div data-reveal>
+      <p class="blk-pal__eyebrow">137 avaliações no Google</p>
+      <h2 class="blk-pal__titulo">A palavra que mais aparece é "tontura"</h2>
+      <p class="blk-pal__lead" data-acende>Contamos os termos que o Google destaca nas avaliações do consultório. Quem escreve conta do que chegou se queixando e da atenção que recebeu na consulta.</p>
+      <p class="blk-pal__nota"><span>4,9</span><small>de 5</small></p>
+    </div>
+    <ul class="blk-pal__barras">
+      <li data-reveal style="--d:0ms;--w:100%"><span>tontura</span><i></i><b>5</b></li>
+      <li data-reveal style="--d:80ms;--w:80%"><span>atenção</span><i></i><b>4</b></li>
+      <li data-reveal style="--d:160ms;--w:60%"><span>profissional</span><i></i><b>3</b></li>
+      <li data-reveal style="--d:240ms;--w:40%"><span>labirintite</span><i></i><b>2</b></li>
+      <li data-reveal style="--d:320ms;--w:40%"><span>cristais</span><i></i><b>2</b></li>
+      <li data-reveal style="--d:400ms;--w:40%"><span>diagnóstico</span><i></i><b>2</b></li>
+      <li data-reveal style="--d:480ms;--w:40%"><span>equipamentos</span><i></i><b>2</b></li>
+    </ul>
+  </div>
+</section>
+<style>
+.blk-pal{padding-block:var(--sp-section)}
+.blk-pal__grade{display:grid;gap:var(--sp-5);align-items:center}
+.blk-pal__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-pal__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pal__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-pal__nota{margin:var(--sp-4) 0 0;display:flex;align-items:baseline;gap:.5rem;font-family:var(--f-display);font-weight:700;font-size:clamp(3rem,10vw,5rem);line-height:1;color:var(--brand)}
+.blk-pal__nota small{font-size:1rem;font-weight:500;color:color-mix(in srgb,var(--ink) 60%,transparent)}
+.blk-pal__barras{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-pal__barras li{display:grid;grid-template-columns:7.5rem 1fr 2rem;align-items:center;gap:var(--sp-2)}
+.blk-pal__barras span{font-weight:600;color:var(--ink)}
+.blk-pal__barras i{display:block;height:.9rem;border-radius:999px;background:color-mix(in srgb,var(--brand) 10%,transparent);position:relative;overflow:hidden}
+.blk-pal__barras i::after{content:"";position:absolute;inset:0;width:var(--w);border-radius:inherit;background:linear-gradient(90deg,var(--brand),var(--pulse))}
+.blk-pal__barras b{font-family:var(--f-display);color:var(--brand);text-align:right}
+@media (min-width:900px){.blk-pal__grade{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:var(--sp-6,4rem)}}
+</style>

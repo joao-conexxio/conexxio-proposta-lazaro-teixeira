@@ -1,0 +1,41 @@
+<section class="blk-sala" id="na-sala">
+  <div class="wrap">
+    <div class="blk-sala__cab" data-reveal>
+      <p class="blk-sala__eyebrow">Dentro do consultório</p>
+      <h2 class="blk-sala__titulo">A tontura é medida antes de ser tratada</h2>
+      <p class="blk-sala__lead" data-acende>Quem chega com tontura costuma ouvir que é "labirintite" e sair com um remédio. Aqui a primeira consulta é para descobrir de onde ela vem: conversa, questionário, testes de equilíbrio e, quando faz sentido, o exame em vídeo do reflexo dos olhos.</p>
+    </div>
+    <ol class="blk-sala__trilha">
+      <li data-reveal style="--d:0ms">
+        <figure><!--foto:midia/equipamentos.jpg|Óculos do exame vHIT e materiais de reabilitação sobre a maca do consultório--></figure>
+        <div class="blk-sala__txt"><span class="blk-sala__n">01</span><h3>O exame vHIT</h3><p>Óculos com câmera registram como os olhos respondem a movimentos rápidos da cabeça. Mostra qual lado do labirinto está falhando.</p></div>
+      </li>
+      <li data-reveal style="--d:100ms">
+        <figure><!--foto:midia/consultorio.jpg|Consultório com mesa, poltronas e maca, em tons de madeira e cinza--></figure>
+        <div class="blk-sala__txt"><span class="blk-sala__n">02</span><h3>O diagnóstico explicado</h3><p>Você sai sabendo o que tem, se é caso de cristais, de labirinto ou de outra causa, e quantas sessões o plano prevê.</p></div>
+      </li>
+      <li data-reveal style="--d:200ms">
+        <figure><!--foto:midia/sala-tela.jpg|Sala de reabilitação com tela grande na parede e espaço livre para os exercícios--></figure>
+        <div class="blk-sala__txt"><span class="blk-sala__n">03</span><h3>A sala de reabilitação</h3><p>Espaço livre para os exercícios de equilíbrio e uma tela grande para treinar olhos e cabeça juntos.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+<style>
+.blk-sala{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 8%,var(--bg))}
+.blk-sala__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-sala__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-sala__lead{margin:var(--sp-3) 0 0;max-width:46rem;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-sala__trilha{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-4)}
+.blk-sala__trilha li{background:var(--bg);border-radius:var(--radius);overflow:hidden;box-shadow:0 1px 0 color-mix(in srgb,var(--ink) 8%,transparent),0 18px 40px -28px color-mix(in srgb,var(--brand) 60%,transparent)}
+.blk-sala__trilha figure{margin:0}
+.blk-sala__trilha img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+.blk-sala__txt{padding:var(--sp-3) var(--sp-3) var(--sp-4)}
+.blk-sala__n{display:inline-block;font-family:var(--f-display);font-weight:700;font-size:.85rem;letter-spacing:.08em;color:var(--bg);background:var(--brand);border-radius:999px;padding:.2rem .6rem}
+.blk-sala__txt h3{margin:var(--sp-2) 0 .3rem;font-family:var(--f-display);font-size:1.35rem;line-height:1.15;color:var(--ink)}
+.blk-sala__txt p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:900px){
+  .blk-sala__trilha{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .blk-sala__trilha li:nth-child(2){transform:translateY(2.5rem)}
+}
+</style>

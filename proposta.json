@@ -1,0 +1,306 @@
+{
+  "slug": "lazaro-teixeira",
+  "negocio": {
+    "nome": "Dr. Lázaro Teixeira",
+    "whatsapp": "5547991188680",
+    "telefone": "(47) 99118-8680",
+    "funcionamento": {
+      "seg": "13:30-18:00",
+      "ter": "13:30-18:00",
+      "qua": "13:30-18:00",
+      "qui": "13:30-18:00",
+      "sex": "13:30-18:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Balneário Camboriú",
+        "endereco": "Rua 300, 31, 1º andar – Centro, Balneário Camboriú – SC, 88330-645",
+        "telefone": "(47) 99118-8680",
+        "horario": "Segunda a sexta, das 13h30 às 18h"
+      },
+      {
+        "bairro": "Centro · Itajaí",
+        "endereco": "Av. Coronel Marcos Konder, 1207, sala 103 (Ed. Embraed) – Centro, Itajaí – SC",
+        "telefone": "(47) 99118-8680",
+        "horario": "Horários pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#1E3A5C",
+    "brand2": "#14283F",
+    "ink": "#0F1B2B",
+    "bg": "#F5F8FA",
+    "pulse": "#2E9C86",
+    "radius": "12px",
+    "registro": "clinico",
+    "fontDisplay": "Sora",
+    "fontBody": "Manrope",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Consultório",
+            "href": "#na-sala"
+          },
+          {
+            "texto": "Etapas",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Endereços",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Fisioterapia vestibular · BC e Itajaí",
+        "h1": "Tontura tem causa. A consulta começa por ela.",
+        "lead": "Avaliação de tontura, labirintite e desequilíbrio com o exame vHIT no próprio consultório, e um plano de sessões explicado desde o primeiro dia. No Centro de Balneário Camboriú e no Centro de Itajaí.",
+        "cta": "Marcar avaliação pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/retrato.jpg",
+        "imagemAlt": "Retrato do fisioterapeuta Lázaro Juliano Teixeira, de jaleco azul-marinho",
+        "tarja": [
+          "4,9 no Google, 137 avaliações",
+          "Exame vHIT no consultório",
+          "Balneário Camboriú e Itajaí",
+          "CREFITO 24816-F"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "reta",
+      "data": {
+        "itens": [
+          "Tontura",
+          "Labirintite",
+          "Cristais no ouvido (VPPB)",
+          "Exame vHIT",
+          "Desequilíbrio",
+          "Reabilitação vestibular"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "Por que a primeira consulta é longa",
+        "citacao": "Na primeira consulta já me senti muito melhor.",
+        "autor": "Paciente, numa avaliação do Google",
+        "texto": [
+          "A tontura assusta porque parece não ter explicação. Quase sempre tem: um cristal fora do lugar no ouvido interno, um labirinto que perdeu força de um lado, uma causa neurológica que pede outro caminho.",
+          "Por isso a primeira consulta é feita sem pressa. Conversa, questionário, testes de equilíbrio e, quando é o caso, o exame em vídeo. Você sai sabendo o que tem e o que vem a seguir."
+        ],
+        "imagem": "midia/consultorio.jpg",
+        "imagemAlt": "Consultório com mesa, poltronas e maca, em tons de madeira e cinza"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que é tratado aqui",
+        "lead": "Tudo começa pela avaliação. É ela que diz qual destes caminhos faz sentido para você.",
+        "itens": [
+          {
+            "nome": "Avaliação fisioterapêutica",
+            "icone": "estetoscopio",
+            "descricao": "Conversa, questionário e testes de equilíbrio para entender de onde vem a tontura e como ela aparece no seu dia."
+          },
+          {
+            "nome": "Exame vHIT",
+            "icone": "olho",
+            "descricao": "Vídeo impulso cefálico: óculos com câmera medem o reflexo dos olhos a cada movimento da cabeça e mostram qual labirinto responde menos."
+          },
+          {
+            "nome": "Cristais no ouvido (VPPB)",
+            "icone": "cerebro",
+            "descricao": "A vertigem que vem ao deitar ou virar na cama. Manobras de reposicionamento devolvem o cristal ao lugar, em geral em poucas sessões."
+          },
+          {
+            "nome": "Reabilitação vestibular",
+            "icone": "coluna",
+            "descricao": "Exercícios de olhos, cabeça e equilíbrio, em sessões semanais e em casa, para o cérebro voltar a confiar no labirinto."
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/sala.html"
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Dá para marcar numa conversa",
+        "lead": "O mesmo número atende os dois endereços. Diga em qual cidade fica melhor e o que você tem sentido.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Fisioterapia Dr. Lázaro",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Tenho tontura quando deito e viro na cama. Vocês atendem isso?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Atendemos sim. Pelo que você descreve, pode ser cristal fora do lugar, e isso se confirma na avaliação."
+          },
+          {
+            "de": "paciente",
+            "texto": "Precisa de pedido médico? E atende em Itajaí?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Não precisa de pedido. Atendemos no Centro de Itajaí e no Centro de BC. Qual fica melhor para você?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato à alta",
+        "lead": "Reabilitação vestibular funciona por repetição. O plano é combinado na avaliação e acompanhado sessão a sessão.",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "icone": "conversa",
+            "texto": "Conte o que tem sentido e escolha entre Balneário Camboriú e Itajaí."
+          },
+          {
+            "titulo": "Avaliação e exame",
+            "icone": "olho",
+            "texto": "Testes de equilíbrio e, quando indicado, o vHIT na mesma visita."
+          },
+          {
+            "titulo": "Plano de sessões",
+            "icone": "agenda",
+            "texto": "Você sabe quantas sessões estão previstas e o que treinar em casa entre uma e outra."
+          },
+          {
+            "titulo": "Reavaliação",
+            "icone": "check",
+            "texto": "Os testes são refeitos ao longo do plano para medir o que melhorou."
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O consultório em números",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "137",
+            "rotulo": "avaliações de pacientes",
+            "contar": 137
+          },
+          {
+            "valor": "2",
+            "rotulo": "cidades: BC e Itajaí",
+            "contar": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem passou pela consulta",
+        "itens": [
+          {
+            "texto": "Primeira consulta e já não senti mais nada das minhas tonturas.",
+            "autor": "Titulivio V.",
+            "contexto": "Google, 5 estrelas"
+          },
+          {
+            "texto": "Conversas, questionários, diagnósticos. Moro no exterior e a visita valeu muito a pena.",
+            "autor": "Marcela P.",
+            "contexto": "Google, 5 estrelas"
+          },
+          {
+            "texto": "Me senti acolhida, com um diagnóstico preciso que me deixou mais segura e tranquila.",
+            "autor": "Camila M.",
+            "contexto": "Google, 5 estrelas"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/palavras.html"
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Preciso de encaminhamento médico?",
+            "r": "Não. Você pode marcar a avaliação direto pelo WhatsApp. Se já tiver exames ou laudos, leve na consulta."
+          },
+          {
+            "p": "Atende convênio?",
+            "r": "O atendimento é particular. Se o seu plano reembolsa fisioterapia, o recibo da consulta serve para pedir o reembolso."
+          },
+          {
+            "p": "O que é o exame vHIT?",
+            "r": "Um exame rápido e sem dor: você usa óculos com uma câmera e o fisioterapeuta faz movimentos curtos com a sua cabeça. Ele mostra como cada labirinto está respondendo."
+          },
+          {
+            "p": "Quantas sessões vou precisar?",
+            "r": "Depende da causa. Cristal fora do lugar costuma resolver em poucas sessões; reabilitação vestibular leva algumas semanas. O número previsto é combinado na avaliação."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "Dois endereços, o mesmo atendimento"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Chame no WhatsApp, diga se prefere Balneário Camboriú ou Itajaí e marque o primeiro horário.",
+        "cta": "Falar com o Dr. Lázaro"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Resultados variam de paciente para paciente. Fisioterapeuta responsável: Lázaro Juliano Teixeira, CREFITO 24816-F."
+      }
+    }
+  ]
+}
